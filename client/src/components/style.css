@@ -1,0 +1,247 @@
+#login{
+    background-color: aquamarine;
+    height: 820px;
+    width: 1400px;
+
+}
+.heading{
+    position: absolute;
+    top: 80px;
+    left: 630px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    z-index: 1;
+}
+#formlogin{
+    position: absolute;
+    top: 100px;
+    left: 480px;
+    background-color: rgb(170, 64, 2);
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#labeluserlogin{
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+#labelpasswordlogin{
+    position: absolute;
+    top: 220px;
+    left: 162px;
+}
+#Passwordlogin{
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    width: 200px;
+}
+#Usernamelogin{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 200px;
+}
+#formlogin button{
+    position: absolute;
+    top: 330px;
+    left: 155px;
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width:80px
+}
+#loginp{
+    position: absolute;
+    top:480px;
+    left: 600px;
+}
+#loginbutton{
+    position: absolute;
+    top:530px;
+    left: 636px; 
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width:80px 
+}
+ 
+/*register */
+
+#Register{
+    background-color: aquamarine;
+    height: 820px;
+    width: 1400px;
+}
+#formregister{
+    position: absolute;
+    top: 100px;
+    left: 480px;
+    background-color: rgb(170, 64, 2);
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#labeluserregister{
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+#Usernameregister{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 200px;
+}
+#labelpasswordregister{
+    position: absolute;
+    top: 210px;
+    left: 162px;
+}
+#Passwordregister{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 200px;
+}
+#labelconfirmregister{
+    position: absolute;
+    top: 298px;
+    left: 142px;
+}
+#Confirmpasswordregister{
+    position: absolute;
+    top: 338px;
+    left: 100px;
+    width: 200px;
+}
+#registersubmit{
+    position: absolute;
+    position: absolute;
+    top: 580px;
+    left: 640px;
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width:80px
+}
+#formregister button{
+position: absolute;
+position: absolute;
+top: 380px;
+left: 160px;
+color: rgb(251, 255, 255);
+background-color: rgb(0, 92, 92);
+border-style: none;
+border-radius: 5px;
+padding: 5px;
+width:80px
+}
+#formregisterp{
+    position: absolute;
+    top:520px;
+    left: 600px;
+}
+
+/* todo */
+
+#todo{
+    background-color: aquamarine;
+    height: 770px;
+    width: 1400px;
+}
+#Header{
+display: flex;
+padding: 25px 20px;
+width: 1360px;
+flex: 1;
+background-color: rgb(176, 175, 175);
+justify-content: right;
+}
+#Sidebar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 698px;
+    top: 72px;
+    left: 0px;
+    flex: 1;
+    background-color: rgb(227, 227, 92);
+}
+#newactivitybutton{
+    position: absolute;
+    top: 102px;
+    left: 1150px;
+    color: rgb(251, 255, 255);
+background-color: rgb(0, 92, 92);
+border-style: none;
+border-radius: 5px;
+padding: 5px;
+width:80px
+}
+#addnewactivity{
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+}
+#addnewactivity button{
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+border-style: none;
+border-radius: 5px;
+padding: 5px;
+width:80px
+}
+#addnewactivity input{
+    height: 20px;
+    border-radius: 6px;
+    border-style: none;
+}
+#tablebox{
+    position: absolute;
+    top: 130px;
+    left:300px;
+    height: 630px;
+    width: 750px;
+overflow: hidden;
+}
+#table{    
+    border-collapse: collapse; 
+}
+th,td{
+    border: 1px solid black;
+    padding:10px;
+    min-width: 150px;
+    text-align: center;
+   
+}
+td button{
+    display:inline;
+    margin: 0px 5px;
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+border-style: none;
+border-radius: 5px;
+padding: 5px;
+}
+#logoutbutton{
+    color: rgb(251, 255, 255);
+    background-color: rgb(0, 92, 92);
+border-style: none;
+border-radius: 5px;
+padding: 5px;
+width: 80px;
+margin-top: 600px;
+margin-left: 20px;
+}
